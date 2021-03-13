@@ -6,7 +6,8 @@
 #define DATABASE_BASE_H
 
 #include <string>
-#define DB_PATH "~/CLionProjects/DataBase/filesDB"
+#include <iostream>
+#define DB_PATH "/Users/pavlogoncaruk/CLionProjects/DataBase/filesDB"
 using std::string;
 class Base
 {
