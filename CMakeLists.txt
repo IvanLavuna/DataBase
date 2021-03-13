@@ -3,4 +3,5 @@ project(DataBase)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(DataBase main.cpp)
+include_directories(include source)
+add_executable(DataBase main.cpp source/Write.cpp source/Base.cpp include/structs.h)
